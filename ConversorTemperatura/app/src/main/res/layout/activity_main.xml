@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_tempF"
+        android:layout_width="116dp"
+        android:layout_height="24dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <Button
+        android:id="@+id/bt_temperatura"
+        android:layout_width="84dp"
+        android:layout_height="23dp"
+        android:text="Converter"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="740dp" />
+
+    <EditText
+        android:id="@+id/et_tempC"
+        android:layout_width="124dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="662dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
